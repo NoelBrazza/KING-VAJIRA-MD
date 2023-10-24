@@ -1,7 +1,7 @@
 {
                "name": "VAJIRA-MD",
                "version": "1.2.2",
-               "description": "Multi device whatsapp bot by VajiraTechInfo.",
+               "description": "Multi device whatsapp bot by Linus࿐TechInfo.",
                "main": "lib/client.js",
                "type": "commonjs",
                "license": "GPL-3.0",
@@ -73,10 +73,10 @@
                     },
                  "repository": {
                  "type": "git",
-                 "url": "git+https://github.com/vajirabot1/KING-VAJIRA-MD.git"
+                 "url": "git+https://github.com/Lino7902/KING-VAJIRA-MD"
                   },
                  "bugs": {
-                 "url": "https://github.com/vajirabot1/KING-VAJIRA-MD/issues"
+                 "url": "https://github.com/Lino7902/KING-VAJIRA-MD/issues"
                   },
-                 "homepage": "https://github.com/vajirabot1/KING-VAJIRA-MD#readme"
+                 "homepage": "https://github.com/Lino7902/KING-VAJIRA-MD#readme"
                   }
