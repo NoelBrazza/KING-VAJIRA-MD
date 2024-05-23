@@ -1,10 +1,17 @@
-# -  /SuhailTechInfo/
+FROM node:lts-buster
 
-FROM quay.io/suhailtechinfo/suhail-v2
-RUN git clone https://github.com/vajirabot1/KING-VAJIRA-MD /root/vajirabot1
-WORKDIR /root/vajirabot1/
-RUN npm install
-EXPOSE 8000
-CMD ["npm","start","yarn" ]
-  
-# -  /SuhailTechInfo/
+RUN apt-get update && \
+  apt-get install -y \
+  ffmpeg \
+  imagemagick \
+  webp && \
+  apt-get upgrade -y && \
+  rm -rf /var/lib/apt/lists/*
+
+COPY package.json 
+
+RUN npm install 
+
+EXPOSE 5000
+
+CMD ["npm", "start"]
