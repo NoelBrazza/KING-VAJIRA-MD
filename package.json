@@ -9,6 +9,7 @@
                 "start": "pm2 start lib/client.js --deep-monitoring --attach --name vajira-md",
                 "stop": "pm2 stop vajira-md"
                 },
+                "keywords": ["whatsappbot", "vajiraMd", "vajira Md Wa bot", "Vajira-Md", "VajiraMdWhatsaooBot", "VajiraWaBot","VajiraMD","Vajira Md Whatsapp Bot","multi device"],
                "author": "TRYTON",
               "dependencies": {
                        "@sampandey001/baileys": "latest", 
