@@ -6,8 +6,8 @@
                "type": "commonjs",
                "license": "GPL-3.0",
    "scripts": {
-                "start": "pm2 start lib/client.js --deep-monitoring --attach --name Suhail-Md",
-                "stop": "pm2 stop Suhail-Md"
+                "start": "pm2 start lib/client.js --deep-monitoring --attach --name Vajira-Md",
+                "stop": "pm2 stop Vajira-Md"
                 },
                "author": "VajiraTechInfo",
               "dependencies": {
